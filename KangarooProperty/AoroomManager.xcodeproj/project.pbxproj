@@ -7,9 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5B05E07C1CA3001200EDE010 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B05E07B1CA3001200EDE010 /* WebViewController.swift */; };
-		5B05E0921CA5012300EDE010 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5B05E0901CA5012300EDE010 /* InfoPlist.strings */; };
-		5B05E0991CA5027C00EDE010 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5B05E0951CA5023D00EDE010 /* Info.plist */; };
 		5B20C0781C9E6678007D19F6 /* AgentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B20C0771C9E6678007D19F6 /* AgentViewController.swift */; };
 		5B20C07F1C9E8035007D19F6 /* NJKWebViewProgress.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B20C07C1C9E8035007D19F6 /* NJKWebViewProgress.m */; };
 		5B20C0801C9E8035007D19F6 /* NJKWebViewProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B20C07E1C9E8035007D19F6 /* NJKWebViewProgressView.m */; };
@@ -27,14 +24,19 @@
 		5B20C0AF1C9ED949007D19F6 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B20C0AE1C9ED949007D19F6 /* libsqlite3.0.tbd */; };
 		5B20C0B11C9ED956007D19F6 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B20C0B01C9ED956007D19F6 /* libc++.tbd */; };
 		5B20C0B31C9ED989007D19F6 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B20C0B21C9ED989007D19F6 /* CoreTelephony.framework */; };
+		5B280D091DD43E4E00DF9B80 /* jpush-ios-2.2.0.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B280D071DD43E4E00DF9B80 /* jpush-ios-2.2.0.a */; };
+		5B280D0F1DD43FE000DF9B80 /* SceneKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B280D0E1DD43FE000DF9B80 /* SceneKit.framework */; };
+		5B280D111DD43FFE00DF9B80 /* libresolv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B280D101DD43FFE00DF9B80 /* libresolv.tbd */; };
+		5B5BD0021DED802F007E8562 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B5BD0011DED802F007E8562 /* WebViewController.swift */; };
+		5B5BD0041DED8443007E8562 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5B5BD0031DED8443007E8562 /* Info.plist */; };
 		5B5DD9111C9B1506007F3643 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B5DD9101C9B1506007F3643 /* AppDelegate.swift */; };
 		5B5DD9161C9B1506007F3643 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B5DD9141C9B1506007F3643 /* Main.storyboard */; };
 		5B5DD9181C9B1506007F3643 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B5DD9171C9B1506007F3643 /* Assets.xcassets */; };
 		5B5DD91B1C9B1506007F3643 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B5DD9191C9B1506007F3643 /* LaunchScreen.storyboard */; };
 		5B5DD9241C9B1CDB007F3643 /* PersonalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B5DD9231C9B1CDB007F3643 /* PersonalViewController.swift */; };
+		5BAAAFE31DEC08D300EC4829 /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BAAAFE21DEC08D300EC4829 /* UserNotifications.framework */; };
 		5BABA70C1CE9784B0063CB86 /* HomeWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BABA70B1CE9784B0063CB86 /* HomeWebViewController.swift */; };
 		5BB7F76D1CB8C677002ACCAF /* RecommendedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB7F76C1CB8C677002ACCAF /* RecommendedViewController.swift */; };
-		5BB7F7711CB8FA85002ACCAF /* jpush-ios-2.1.5.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BB7F76F1CB8FA85002ACCAF /* jpush-ios-2.1.5.a */; };
 		5BB7F7731CB8FACE002ACCAF /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BB7F7721CB8FACE002ACCAF /* CFNetwork.framework */; };
 		5BB7F7751CB8FAD8002ACCAF /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BB7F7741CB8FAD8002ACCAF /* CoreFoundation.framework */; };
 		5BB7F7771CB8FAE0002ACCAF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BB7F7761CB8FAE0002ACCAF /* CoreGraphics.framework */; };
@@ -43,12 +45,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		5B05E07B1CA3001200EDE010 /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
-		5B05E0911CA5012300EDE010 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
-		5B05E0931CA5018B00EDE010 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		5B05E0961CA5024100EDE010 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Base; path = Base.lproj/Info.plist; sourceTree = "<group>"; };
-		5B05E0971CA5026300EDE010 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "zh-Hans"; path = "zh-Hans.lproj/Info.plist"; sourceTree = "<group>"; };
-		5B05E0981CA5026C00EDE010 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = en; path = en.lproj/Info.plist; sourceTree = "<group>"; };
 		5B20C0771C9E6678007D19F6 /* AgentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AgentViewController.swift; sourceTree = "<group>"; };
 		5B20C07B1C9E8035007D19F6 /* NJKWebViewProgress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NJKWebViewProgress.h; sourceTree = "<group>"; };
 		5B20C07C1C9E8035007D19F6 /* NJKWebViewProgress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NJKWebViewProgress.m; sourceTree = "<group>"; };
@@ -74,16 +70,23 @@
 		5B20C0AE1C9ED949007D19F6 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
 		5B20C0B01C9ED956007D19F6 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
 		5B20C0B21C9ED989007D19F6 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		5B280D071DD43E4E00DF9B80 /* jpush-ios-2.2.0.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "jpush-ios-2.2.0.a"; sourceTree = "<group>"; };
+		5B280D081DD43E4E00DF9B80 /* JPUSHService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPUSHService.h; sourceTree = "<group>"; };
+		5B280D0C1DD43FB400DF9B80 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		5B280D0E1DD43FE000DF9B80 /* SceneKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SceneKit.framework; path = System/Library/Frameworks/SceneKit.framework; sourceTree = SDKROOT; };
+		5B280D101DD43FFE00DF9B80 /* libresolv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libresolv.tbd; path = usr/lib/libresolv.tbd; sourceTree = SDKROOT; };
+		5B5BD0011DED802F007E8562 /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		5B5BD0031DED8443007E8562 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B5BD00F1DEE9C80007E8562 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = "zh-Hans"; path = "zh-Hans.lproj/Main.storyboard"; sourceTree = "<group>"; };
+		5B5BD0101DEE9C80007E8562 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.storyboard"; sourceTree = "<group>"; };
+		5B5BD0111DEEA1D6007E8562 /* AoroomManager.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AoroomManager.entitlements; sourceTree = "<group>"; };
 		5B5DD90D1C9B1506007F3643 /* AoroomManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AoroomManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B5DD9101C9B1506007F3643 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5B5DD9151C9B1506007F3643 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5B5DD9171C9B1506007F3643 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		5B5DD91A1C9B1506007F3643 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5B5DD9231C9B1CDB007F3643 /* PersonalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonalViewController.swift; sourceTree = "<group>"; };
+		5BAAAFE21DEC08D300EC4829 /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
 		5BABA70B1CE9784B0063CB86 /* HomeWebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeWebViewController.swift; sourceTree = "<group>"; };
 		5BB7F76C1CB8C677002ACCAF /* RecommendedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecommendedViewController.swift; sourceTree = "<group>"; };
-		5BB7F76F1CB8FA85002ACCAF /* jpush-ios-2.1.5.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "jpush-ios-2.1.5.a"; sourceTree = "<group>"; };
-		5BB7F7701CB8FA85002ACCAF /* JPUSHService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPUSHService.h; sourceTree = "<group>"; };
 		5BB7F7721CB8FACE002ACCAF /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		5BB7F7741CB8FAD8002ACCAF /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
 		5BB7F7761CB8FAE0002ACCAF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -96,17 +99,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5BAAAFE31DEC08D300EC4829 /* UserNotifications.framework in Frameworks */,
+				5B280D111DD43FFE00DF9B80 /* libresolv.tbd in Frameworks */,
+				5B280D0F1DD43FE000DF9B80 /* SceneKit.framework in Frameworks */,
 				5BB7F7791CB8FAEB002ACCAF /* Security.framework in Frameworks */,
 				5BB7F7771CB8FAE0002ACCAF /* CoreGraphics.framework in Frameworks */,
 				5BB7F7751CB8FAD8002ACCAF /* CoreFoundation.framework in Frameworks */,
 				5BB7F7731CB8FACE002ACCAF /* CFNetwork.framework in Frameworks */,
 				5B20C0B31C9ED989007D19F6 /* CoreTelephony.framework in Frameworks */,
 				5B20C0B11C9ED956007D19F6 /* libc++.tbd in Frameworks */,
-				5BB7F7711CB8FA85002ACCAF /* jpush-ios-2.1.5.a in Frameworks */,
 				5B20C0AF1C9ED949007D19F6 /* libsqlite3.0.tbd in Frameworks */,
 				5B20C0AB1C9ED92B007D19F6 /* libz.tbd in Frameworks */,
 				5B20C0A91C9ED922007D19F6 /* SystemConfiguration.framework in Frameworks */,
 				5B20C0A21C9EB099007D19F6 /* libWeChatSDK.a in Frameworks */,
+				5B280D091DD43E4E00DF9B80 /* jpush-ios-2.2.0.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -116,7 +122,7 @@
 		5B20C0791C9E7FDD007D19F6 /* Common */ = {
 			isa = PBXGroup;
 			children = (
-				5BB7F76E1CB8FA85002ACCAF /* lib */,
+				5B280D061DD43E4E00DF9B80 /* Lib */,
 				5B20C0911C9E9ECC007D19F6 /* HEXColor */,
 				5B20C07A1C9E8035007D19F6 /* NJKWebViewProgress */,
 				5B20C09C1C9EB099007D19F6 /* SDK1.6.2 */,
@@ -169,6 +175,26 @@
 			path = SDK1.6.2;
 			sourceTree = "<group>";
 		};
+		5B280D061DD43E4E00DF9B80 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				5B280D071DD43E4E00DF9B80 /* jpush-ios-2.2.0.a */,
+				5B280D081DD43E4E00DF9B80 /* JPUSHService.h */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		5B280D0B1DD43FB300DF9B80 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5BAAAFE21DEC08D300EC4829 /* UserNotifications.framework */,
+				5B280D101DD43FFE00DF9B80 /* libresolv.tbd */,
+				5B280D0E1DD43FE000DF9B80 /* SceneKit.framework */,
+				5B280D0C1DD43FB400DF9B80 /* AdSupport.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		5B5DD9041C9B1506007F3643 = {
 			isa = PBXGroup;
 			children = (
@@ -184,6 +210,7 @@
 				5B20C0A81C9ED922007D19F6 /* SystemConfiguration.framework */,
 				5B5DD90F1C9B1506007F3643 /* AoroomManager */,
 				5B5DD90E1C9B1506007F3643 /* Products */,
+				5B280D0B1DD43FB300DF9B80 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -198,6 +225,7 @@
 		5B5DD90F1C9B1506007F3643 /* AoroomManager */ = {
 			isa = PBXGroup;
 			children = (
+				5B5BD0111DEEA1D6007E8562 /* AoroomManager.entitlements */,
 				5B20C0791C9E7FDD007D19F6 /* Common */,
 				5B5DD9221C9B1C91007F3643 /* Controllers */,
 				5B5DD9101C9B1506007F3643 /* AppDelegate.swift */,
@@ -205,8 +233,7 @@
 				5B5DD9171C9B1506007F3643 /* Assets.xcassets */,
 				5B20C08C1C9E91D9007D19F6 /* OC-Bridge-Header.h */,
 				5B5DD9191C9B1506007F3643 /* LaunchScreen.storyboard */,
-				5B05E0901CA5012300EDE010 /* InfoPlist.strings */,
-				5B05E0951CA5023D00EDE010 /* Info.plist */,
+				5B5BD0031DED8443007E8562 /* Info.plist */,
 				5BB7F77A1CB8FB5A002ACCAF /* PushConfig.plist */,
 			);
 			path = AoroomManager;
@@ -220,18 +247,9 @@
 				5B20C0771C9E6678007D19F6 /* AgentViewController.swift */,
 				5BB7F76C1CB8C677002ACCAF /* RecommendedViewController.swift */,
 				5B20C09A1C9EAD89007D19F6 /* HomeViewController.swift */,
-				5B05E07B1CA3001200EDE010 /* WebViewController.swift */,
+				5B5BD0011DED802F007E8562 /* WebViewController.swift */,
 			);
 			path = Controllers;
-			sourceTree = "<group>";
-		};
-		5BB7F76E1CB8FA85002ACCAF /* lib */ = {
-			isa = PBXGroup;
-			children = (
-				5BB7F76F1CB8FA85002ACCAF /* jpush-ios-2.1.5.a */,
-				5BB7F7701CB8FA85002ACCAF /* JPUSHService.h */,
-			);
-			path = lib;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,12 +279,19 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0720;
-				LastUpgradeCheck = 0720;
+				LastUpgradeCheck = 0810;
 				ORGANIZATIONNAME = YYQ;
 				TargetAttributes = {
 					5B5DD90C1C9B1506007F3643 = {
 						CreatedOnToolsVersion = 7.2.1;
 						DevelopmentTeam = 655P2MB6RU;
+						LastSwiftMigration = 0810;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -275,8 +300,6 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				en,
-				Base,
 				"zh-Hans",
 			);
 			mainGroup = 5B5DD9041C9B1506007F3643;
@@ -294,9 +317,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5B05E0921CA5012300EDE010 /* InfoPlist.strings in Resources */,
 				5BB7F77B1CB8FB5A002ACCAF /* PushConfig.plist in Resources */,
-				5B05E0991CA5027C00EDE010 /* Info.plist in Resources */,
+				5B5BD0041DED8443007E8562 /* Info.plist in Resources */,
 				5B20C0981C9E9ECC007D19F6 /* watchOS-Info.plist in Resources */,
 				5B20C0971C9E9ECC007D19F6 /* iOS-Info.plist in Resources */,
 				5B5DD91B1C9B1506007F3643 /* LaunchScreen.storyboard in Resources */,
@@ -314,7 +336,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				5B20C07F1C9E8035007D19F6 /* NJKWebViewProgress.m in Sources */,
-				5B05E07C1CA3001200EDE010 /* WebViewController.swift in Sources */,
 				5B20C0991C9E9ECC007D19F6 /* UIColorExtension.swift in Sources */,
 				5B20C0A51C9EBE62007D19F6 /* CommonShareView.swift in Sources */,
 				5BB7F76D1CB8C677002ACCAF /* RecommendedViewController.swift in Sources */,
@@ -325,6 +346,7 @@
 				5BABA70C1CE9784B0063CB86 /* HomeWebViewController.swift in Sources */,
 				5B5DD9241C9B1CDB007F3643 /* PersonalViewController.swift in Sources */,
 				5B5DD9111C9B1506007F3643 /* AppDelegate.swift in Sources */,
+				5B5BD0021DED802F007E8562 /* WebViewController.swift in Sources */,
 				5B20C0901C9E9D7B007D19F6 /* BaseViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -332,29 +354,10 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		5B05E0901CA5012300EDE010 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5B05E0911CA5012300EDE010 /* zh-Hans */,
-				5B05E0931CA5018B00EDE010 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		5B05E0951CA5023D00EDE010 /* Info.plist */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5B05E0961CA5024100EDE010 /* Base */,
-				5B05E0971CA5026300EDE010 /* zh-Hans */,
-				5B05E0981CA5026C00EDE010 /* en */,
-			);
-			name = Info.plist;
-			sourceTree = "<group>";
-		};
 		5B5DD9141C9B1506007F3643 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				5B5DD9151C9B1506007F3643 /* Base */,
+				5B5BD00F1DEE9C80007E8562 /* zh-Hans */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -362,7 +365,7 @@
 		5B5DD9191C9B1506007F3643 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				5B5DD91A1C9B1506007F3643 /* Base */,
+				5B5BD0101DEE9C80007E8562 /* zh-Hans */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -374,6 +377,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -383,8 +387,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "iPhone Distribution: mingkai zhang (655P2MB6RU)";
@@ -407,7 +413,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PROVISIONING_PROFILE = "ab5ea827-693b-4956-873d-104d88cb2fac";
@@ -420,6 +426,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -429,8 +436,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "iPhone Distribution: mingkai zhang (655P2MB6RU)";
@@ -447,10 +456,11 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PROVISIONING_PROFILE = "ab5ea827-693b-4956-873d-104d88cb2fac";
 				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -458,10 +468,12 @@
 		5B5DD9201C9B1506007F3643 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = AoroomManager/AoroomManager.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Distribution: mingkai zhang (655P2MB6RU)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: mingkai zhang (655P2MB6RU)";
-				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 655P2MB6RU;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = AoroomManager/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -471,11 +483,14 @@
 					"$(PROJECT_DIR)/AoroomManager/Common/SDK1.6.2",
 					"$(PROJECT_DIR)/AoroomManager/Common/LibBPush",
 					"$(PROJECT_DIR)/AoroomManager/Common/lib",
+					"$(PROJECT_DIR)/AoroomManager/Common/Lib",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.aoroom.manager;
 				PRODUCT_NAME = AoroomManager;
-				PROVISIONING_PROFILE = "ab5ea827-693b-4956-873d-104d88cb2fac";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/AoroomManager/OC-Bridge-Header.h";
+				SWIFT_VERSION = 3.0;
 				VALIDATE_PRODUCT = NO;
 			};
 			name = Debug;
@@ -483,10 +498,12 @@
 		5B5DD9211C9B1506007F3643 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = AoroomManager/AoroomManager.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Distribution: mingkai zhang (655P2MB6RU)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: mingkai zhang (655P2MB6RU)";
-				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 655P2MB6RU;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = AoroomManager/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -496,11 +513,14 @@
 					"$(PROJECT_DIR)/AoroomManager/Common/SDK1.6.2",
 					"$(PROJECT_DIR)/AoroomManager/Common/LibBPush",
 					"$(PROJECT_DIR)/AoroomManager/Common/lib",
+					"$(PROJECT_DIR)/AoroomManager/Common/Lib",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.aoroom.manager;
 				PRODUCT_NAME = AoroomManager;
-				PROVISIONING_PROFILE = "ab5ea827-693b-4956-873d-104d88cb2fac";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/AoroomManager/OC-Bridge-Header.h";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};

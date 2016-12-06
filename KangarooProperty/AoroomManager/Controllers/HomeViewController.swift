@@ -11,11 +11,11 @@ import UIKit
 public let kTouchJavaScriptString: String = "document.ontouchstart=function(event){x=event.targetTouches[0].clientX;y=event.targetTouches[0].clientY;document.location=\"myweb:touch:start:\"+x+\":\"+y;};document.ontouchmove=function(event){x=event.targetTouches[0].clientX;y=event.targetTouches[0].clientY;document.location=\"myweb:touch:move:\"+x+\":\"+y;};document.ontouchcancel=function(event){document.location=\"myweb:touch:cancel\";};document.ontouchend=function(event){document.location=\"myweb:touch:end\";};"
 
 enum TouchState {
-    case None
-    case Start
-    case Move
-    case End
-    case Cancel
+    case none
+    case start
+    case move
+    case end
+    case cancel
 }
 
 class HomeViewController: BaseViewController {
@@ -24,64 +24,64 @@ class HomeViewController: BaseViewController {
         super.viewDidLoad()
     }
     
-    override func viewWillAppear(animated: Bool) {
+    override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         let tabbar = self.tabBarController as! BaseTabViewController
         tabbar.shareView.delegate = self
-        self.navigationController?.navigationBarHidden = true
+        self.navigationController?.isNavigationBarHidden = true
     }
     
-    override func viewWillDisappear(animated: Bool) {
+    override func viewWillDisappear(_ animated: Bool) {
         super.viewWillDisappear(true)
-        self.navigationController?.navigationBarHidden = false
+        self.navigationController?.isNavigationBarHidden = false
     }
     
-    @IBAction func homeAction(sender: AnyObject) {
+    @IBAction func homeAction(_ sender: AnyObject) {
         let dic = ["url": "http://aoroom.com","title":"首页"]
         pushWeb(dic)
     }
-    @IBAction func xinpanAction(sender: AnyObject) {
+    @IBAction func xinpanAction(_ sender: AnyObject) {
         let dic = ["url": "http://aoroom.com/portal.php?mod=list&catid=1", "title":"新盘"]
         pushWeb(dic)
      
     }
     
-    @IBAction func dituAction(sender: AnyObject) {
+    @IBAction func dituAction(_ sender: AnyObject) {
         let dic = ["url": "http://aoroom.com/test8.html", "title": "地图"]
         pushWeb(dic)
     }
     
-    @IBAction func zufangAction(sender: AnyObject) {
+    @IBAction func zufangAction(_ sender: AnyObject) {
         let dic = ["url": "http://aoroom.com/forum.php?mod=forumdisplay&fid=2", "title": "租房"]
         pushWeb(dic)
     }
     
-    @IBAction func peixunAction(sender: AnyObject) {
+    @IBAction func peixunAction(_ sender: AnyObject) {
         let dic = ["url": "http://aoroom.com/portal.php?mod=view&aid=108&mobile=yes", "title": "培训"]
         pushWeb(dic)
     }
     
-    @IBAction func zhishiAction(sender: AnyObject) {
+    @IBAction func zhishiAction(_ sender: AnyObject) {
         let dic = ["url": "http://aoroom.com/portal.php?mod=list&catid=2", "title": "指数"]
         pushWeb(dic)
     }
     
-    @IBAction func xinwenAction(sender: AnyObject) {
+    @IBAction func xinwenAction(_ sender: AnyObject) {
         let dic = ["url": "http://aoroom.com/news/", "title": "新闻"]
         pushWeb(dic)
     }
     
-    @IBAction func zhishuAction(sender: AnyObject) {
+    @IBAction func zhishuAction(_ sender: AnyObject) {
         let dic = ["url": "http://aoroom.com/portal.php?mod=view&aid=24&mobile=yes", "title": "指数"]
         pushWeb(dic)
     }
     
-    func pushWeb(dic: [String: String]) -> Void {
-        self.performSegueWithIdentifier("segue", sender: dic)
+    func pushWeb(_ dic: [String: String]) -> Void {
+        self.performSegue(withIdentifier: "segue", sender: dic)
     }
     
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        let VC = segue.destinationViewController as! WebViewController
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let VC = segue.destination as! WebViewController
         let dic = sender as! [String: String]
         VC.currenUrl = dic["url"]!
         VC.title = dic["title"]!
@@ -89,9 +89,9 @@ class HomeViewController: BaseViewController {
 }
 
 extension HomeViewController: shareViewDelegate {
-    func shareViewWithType(shareType: ShareType) {
+    func shareViewWithType(_ shareType: ShareType) {
         var sence: Int32 = 1
-        if shareType == ShareType.WeiXinType {
+        if shareType == ShareType.weiXinType {
             sence = 0
         }else {
             sence = 1
@@ -109,7 +109,7 @@ extension HomeViewController: shareViewDelegate {
         urlMessage.mediaObject = webObj
         wxSendMsg.message = urlMessage
         
-        WXApi.sendReq(wxSendMsg)
+        WXApi.send(wxSendMsg)
 
     }
 }
